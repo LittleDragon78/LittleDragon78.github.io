@@ -5,23 +5,93 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caacupe+One&family=Valley+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        My name is Andrew Arvey
-    </header>
-    <main>
+        My name is Andrew
         <p>I am a sophomore at Elizabethtown College majoring in computer science</p>
 
-        <h1>Current Classes</h1>
-        <ul>
+    </header>
+    <main>
+
+        <h1>Current Classes at Etown</h1>
+        <ul id="classes" class="current">
             <li>Database Systems</li>
             <li>Web Development</li>
             <li>Data Structures</li>
             <li>Societal impacts of computing, robotics and AI</li>
         </ul>
 
-        <h2>Some of my favorite things</h2>
+        <h1>Previous Classes at Etown</h1>
+        <ul id="classes" class="previous">
+            <li>Computer Science 1</li>
+            <li>First Year Writing</li>
+            <li>FYS Understanind Probability</li>
+            <li>Probability and Statistics</li>
+            <li>Computer Science 2</li>
+            <li>Principles of Macroeconomics</li>
+            <li>Western Civilization 2</li>
+            <li>Applied Discrete Mathematics</li>
+        </ul>
+
+
+        <h2>Experiences</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Work</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2023-2026</td>
+                    <td>Rehab Volunteer</td>
+                </tr>
+                <tr>
+                    <td>2025-2029</td>
+                    <td>Elizabethtown College Student</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+
+        <h2 class="table">Coding Skills</h2>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Coding Language</th>
+                    <th>Skill level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Python</td>
+                    <td>3/5</td>
+                </tr>
+                <tr>
+                    <td>Java</td>
+                    <td>4/5</td>
+                </tr>
+                <tr>
+                    <td>SQL</td>
+                    <td>1.5/5</td>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>1.5/5</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- <h2>Some of my favorite things</h2>
         <h3>Favorite Games</h3>
         <ul>
             <li>Life is Strange (<a href="https://store.steampowered.com/app/319630/Life_is_Strange__Episode_1/">Steam Page</a>)</li>
@@ -29,10 +99,17 @@
             <li>Stardew Valley (<a href="https://store.steampowered.com/app/413150/Stardew_Valley/">Steam Page</a>)</li>
             <li>Control (<a href="https://store.steampowered.com/app/870780/CONTROL_Ultimate_Edition/">Steam Page</a>)</li>
             <li>Helldivers 2 (<a href="https://store.steampowered.com/app/553850/HELLDIVERS_2/">Steam Page</a>)</li>
-        </ul>
+        </ul> -->
 
-        <h3>My Hobbies</h3>
-        <table>        
+        <h1 id="hobbies">My Hobbies</h1>
+
+        <h3>Playing with my Dog</h3>
+        <img src="Images/Riley2.jpg" width="200">
+        <h3>Playing Video Games</h3>
+        <img src="Images/Steam.jpg" width="200">
+        <img src="Images/playstation.png" width="200">
+
+        <!-- <table class="table">        
             <tr>
                 <td>Playing with my Dog </td>
                 <td><img src="Images/Riley2.jpg" width="200"></td>
@@ -41,9 +118,9 @@
             <tr>
                 <td>Playing Video Games </td>
                 <td><img src="Images/Steam.jpg" width="200"></td>
-
+                <td><img src="Images/playstation.png" width="200"></td>
             </tr>
-        </table>
+        </table> -->
 
     </main>
 
@@ -51,6 +128,7 @@
     <footer>
         <p>Copyright info</p>
         <p>Hey man, you really shouldn't copy this or you'll get sued or something like that</p>
+        <address>Email: arvey@etown.edu</address>
     </footer>
 
 

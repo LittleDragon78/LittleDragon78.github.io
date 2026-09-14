@@ -1,0 +1,52 @@
+body {
+    font-family: "Caacupe One", sans-serif;
+    text-align: center;
+    background-color: lightblue;
+}
+
+header {
+    font-size: 50px;
+    border-bottom: dashed rgb(123, 15, 15);
+}
+p{
+    font-size: 18px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+#classes {
+    font-size: 20px;
+
+}
+ul {
+    list-style: none;
+    border-bottom: dashed rgb(123, 15, 15);
+    /* margin-bottom: 20px; */
+}
+
+table {
+    font-size: 20px;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    /* vertical-align: center; */
+    border-color: black;
+    border-style: dashed;
+    border-width: 1px;
+    background-color: rgb(211, 248, 5);
+}
+.table {
+    border-top: dashed rgb(123, 15, 15);
+}
+
+#hobbies {
+    border-top: dashed rgb(123, 15, 15);
+}
+
+
+footer {
+    border-top: dashed rgb(123, 15, 15);
+    font-size: 18px;
+}
