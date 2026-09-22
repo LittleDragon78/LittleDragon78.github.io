@@ -13,36 +13,37 @@
 </head>
 <body>
     <header>
-        My name is Andrew
+        My name is Andrew Arvey
         <p>I am a sophomore at Elizabethtown College majoring in computer science</p>
 
     </header>
     <main>
 
         <h1>Current Classes at Etown</h1>
-        <ul id="classes" class="current">
-            <li>Database Systems</li>
-            <li>Web Development</li>
-            <li>Data Structures</li>
-            <li>Societal impacts of computing, robotics and AI</li>
-        </ul>
+        <div class="classes">
+            <ul id="classes" class="current">
+                <li>Database Systems</li>
+                <li>Web Development</li>
+                <li>Data Structures</li>
+                <li>Societal impacts of computing, robotics and AI</li>
+            </ul>
 
-        <h1>Previous Classes at Etown</h1>
-        <ul id="classes" class="previous">
-            <li>Computer Science 1</li>
-            <li>First Year Writing</li>
-            <li>FYS Understanind Probability</li>
-            <li>Probability and Statistics</li>
-            <li>Computer Science 2</li>
-            <li>Principles of Macroeconomics</li>
-            <li>Western Civilization 2</li>
-            <li>Applied Discrete Mathematics</li>
-        </ul>
+            <h1>Previous Classes at Etown</h1>
+            <ul id="classes" class="previous">
+                <li>Computer Science 1</li>
+                <li>First Year Writing</li>
+                <li>FYS Understanind Probability</li>
+                <li>Probability and Statistics</li>
+                <li>Computer Science 2</li>
+                <li>Principles of Macroeconomics</li>
+                <li>Western Civilization 2</li>
+                <li>Applied Discrete Mathematics</li>
+            </ul>
+        </div>
 
-
-        <h2>Experiences</h2>
-        <table border="1">
-            <thead>
+        <h2 class="Experience">Experiences</h2>
+        <table border="1" id="table">
+            <thead class="Table Header">
                 <tr>
                     <th>Time</th>
                     <th>Work</th>
@@ -61,11 +62,11 @@
             </tbody>
         </table>
 
+        
+        <h2 class="border">Coding Skills</h2>
 
-        <h2 class="table">Coding Skills</h2>
-
-        <table border="1">
-            <thead>
+        <table border="1" id="table">
+            <thead class="Table Header">
                 <tr>
                     <th>Coding Language</th>
                     <th>Skill level</th>
@@ -91,6 +92,33 @@
             </tbody>
         </table>
 
+        <br>
+        <h2 class="border">Projects</h2>
+        <div class="projects">
+
+            <div class="box">
+                <h3>AP CSP Final Project</h3>
+                <p>For my final project in AP Computer Science Principles in High School, <br>
+                    I coded a game where you controlled a hunter at the top of the screen shooting a bow and arrow <br>
+                    at deer while trying to keep them from reaching your house.</p>
+            </div>
+
+            <!-- <div class="box">
+                <h3>Other Project</h3>
+                <p></p>
+            </div> -->
+
+            <div class="box">
+                <h3>CS 2 Project</h3>
+                <p>Tank Game where you controlled a tank and the goal was to destory <br>
+                    the other tanks without dying or the homebase being destroyed. <br>
+                    Worked on this game with 2 other classmates.
+                </p>
+            </div>
+
+        </div>
+        
+
         <!-- <h2>Some of my favorite things</h2>
         <h3>Favorite Games</h3>
         <ul>
@@ -103,9 +131,9 @@
 
         <h1 id="hobbies">My Hobbies</h1>
 
-        <h3>Playing with my Dog</h3>
+        <p>Playing with my Dog</p>
         <img src="Images/Riley2.jpg" width="200">
-        <h3>Playing Video Games</h3>
+        <p>Playing Video Games</p>
         <img src="Images/Steam.jpg" width="200">
         <img src="Images/playstation.png" width="200">
 
